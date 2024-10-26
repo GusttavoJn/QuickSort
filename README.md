@@ -1,3 +1,3 @@
 # QuickSort
  
-○ Implementação - Utilizando Array
+Implementação - Utilizando Array
