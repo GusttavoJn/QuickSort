@@ -14,13 +14,13 @@ public class QuickSort {
         }
     }
     public static int separacao(int[] v, int i, int f) {
-        int pivor = v[i];
+        int pivo = v[i];
         int e = i;
         int d = f;
 
         while (e <= d) {
-            while (e <= f && v[e] < pivor) e++;
-            while (d >= i && v[d] > pivor) d--;
+            while (e <= f && v[e] < pivo) e++;
+            while (d >= i && v[d] > pivo) d--;
             
             if (e <= d) {
                 int aux = v[e];
@@ -32,13 +32,11 @@ public class QuickSort {
         }
         return e;
     }
-
-
     public static void main(String[] args) throws Exception {
         int[] vetor = {1, 3, 6, 2, 4, 5};
 
         quicksort(vetor);
 
-        System.out.println(Arrays.toString(vetor).getClass());
+        System.out.println(Arrays.toString(vetor));
     }
 }
