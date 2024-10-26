@@ -1,2 +1,3 @@
 # QuickSort
  
+○ Implementação - Utilizando Array
